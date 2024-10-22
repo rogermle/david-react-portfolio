@@ -2,7 +2,8 @@
 export default function AboutMePage() {
     return (
       <div className="">
-         <h3>My Portfolio</h3>
+         <h3>About Me</h3>
+         {/* add photo here */}
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
           tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
