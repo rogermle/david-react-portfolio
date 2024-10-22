@@ -37,17 +37,17 @@
 // export default App
 
 
-// CODE COPIED EXACTLY FROM 12-24
-// Bringing in the required import from 'react-router-dom'
-import { Outlet } from 'react-router-dom';
-import Navigation from './components/Navigation';
+// CODE COPIED FROM 12-24 AND MODIFIED
+import Header from './components/header';
+import Footer from './components/footer';
+import Project from './components/project';
 
 function App() {
-  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
-      <Navigation />
-      <Outlet />
+      <Header />
+      <Project />
+      <Footer />
     </>
   );
 }
