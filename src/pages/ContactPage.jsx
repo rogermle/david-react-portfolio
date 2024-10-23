@@ -53,11 +53,7 @@ function ContactPage() {
     };
 
     return (
-        // <div className="">
-        //     <h2>Currently under construction. Come back soon!</h2>
-        // </div>
-        <div className="container text-center">
-          {/* <h1>Hello {userName}</h1> */}
+        <div className="container text-center d-block m-3">
           <form className="form" onSubmit={handleFormSubmit}>
             <input
               value={name}
