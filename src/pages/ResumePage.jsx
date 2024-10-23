@@ -8,7 +8,7 @@ export default function ResumePage() {
       {/* <Link to={`../../../../src/assets/david-cartolano-resume.pdf`} className="badge bg-primary rounded-pill">
         Download my resume
       </Link> */}
-      <a href="../../../../src/assets/david-cartolano-resume.pdf" download>Download my resume</a>
+      <a href="../../../../public/assets/david-cartolano-resume.pdf" download>Download my resume</a>
       <ul className="">
         <h5>Front-end Proficiencies</h5>
         <li className="">HTML</li>

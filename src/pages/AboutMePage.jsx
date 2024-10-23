@@ -6,7 +6,7 @@ export default function AboutMePage() {
       {/* add photo here */}
       <div className="row">
         <div className="col">
-        <img src="../../../../src/assets/img/david.png" className="mx-auto p-5 img-fluid" alt="..." />
+        <img src="../../../../public/assets/img/david.png" className="mx-auto p-5 img-fluid" alt="..." />
         </div>
         <div className="col">
         <p className="">
