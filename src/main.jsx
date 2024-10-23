@@ -1,17 +1,3 @@
-// ORIGINAL CONTENT POPULATED BY VITE
-// import { StrictMode } from 'react'
-// import { createRoot } from 'react-dom/client'
-// import App from './App.jsx'
-// import './index.css'
-
-// createRoot(document.getElementById('root')).render(
-//   <StrictMode>
-//     <App />
-//   </StrictMode>,
-// )
-
-
-// MAIN CONTENT COPIED FROM 12-24 AND SO FAR LIGHTLY ADJUSTED FOR THIS APP
 import ReactDOM from 'react-dom/client';
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -29,7 +15,6 @@ import PortfolioPage from './pages/PortfolioPage';
 import ResumePage from './pages/ResumePage';
 
 // Define the accessible routes, and which components respond to which URL
-// MAY NEED TO REORDER THESE
 const router = createBrowserRouter([
   {
     path: '/', // what if there is no homepage?
