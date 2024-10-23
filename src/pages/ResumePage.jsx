@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function ResumePage() {
 
   return (
-    <div className="">
+    <div className="mx-3">
       <h3>Resume</h3>
       {/* <Link to={`../../../../src/assets/david-cartolano-resume.pdf`} className="badge bg-primary rounded-pill">
         Download my resume
