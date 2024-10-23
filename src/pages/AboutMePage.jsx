@@ -4,6 +4,7 @@ export default function AboutMePage() {
       <div className="">
          <h3>About Me</h3>
          {/* add photo here */}
+         <img src="../../../../src/assets/img/david.png" class="card-img" alt="..." />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
           tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
