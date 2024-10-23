@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <div className="m-5 row">
       <div className="col">
-        <h2>Welcome to my portfolio! {`>:3`}</h2>
+        <h2>Welcome to my portfolio!</h2>
         </div>
     </div>
   );
