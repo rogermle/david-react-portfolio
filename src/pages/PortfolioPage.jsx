@@ -10,7 +10,7 @@ export default function PortfolioPage() {
             <h3>Portfolio</h3>
             <div className="card-group">
                 <div class="card text-bg-dark">
-                    <img src="../../../../public/assets/img/weather-dashboard.png" class="card-img" alt="..." />
+                    <img src="/assets/img/weather-dashboard.png" class="card-img" alt="..." />
                     <div class="card-img-overlay">
                         <Link to={`https://weather-report-tgh1.onrender.com`} className="badge bg-primary rounded-pill">
                             Weather Report
@@ -23,7 +23,7 @@ export default function PortfolioPage() {
                     </div>
                 </div>
                 <div class="card text-bg-dark">
-                    <img src="../../../../public/assets/img/national-park-finder.png" class="card-img" alt="..." />
+                    <img src="/assets/img/national-park-finder.png" class="card-img" alt="..." />
                     <div class="card-img-overlay">
                         <Link to={`https://challenge-render-deploy-demo-jugt.onrender.com`} className="badge bg-primary rounded-pill">
                             Challenge Render Deploy Demo
@@ -36,7 +36,7 @@ export default function PortfolioPage() {
                     </div>
                 </div>
                 <div class="card text-bg-dark">
-                    <img src="../../../../public/assets/img/stream-screenings.png" class="card-img" alt="..." />
+                    <img src="/assets/img/stream-screenings.png" class="card-img" alt="..." />
                     <div class="card-img-overlay">
                         <Link to={`https://dcartolano.github.io/Stream-Screenings/ `} className="badge bg-primary rounded-pill">
                             Stream Screenings
@@ -49,7 +49,7 @@ export default function PortfolioPage() {
                     </div>
                 </div>
                 <div class="card text-bg-dark">
-                    <img src="../../../../public/assets/img/prework-study-guide.png" class="card-img" alt="..." />
+                    <img src="/assets/img/prework-study-guide.png" class="card-img" alt="..." />
                     <div class="card-img-overlay">
                         <Link to={`https://dcartolano.github.io/prework-study-guide/`} className="badge bg-primary rounded-pill">
                             Prework Study Guide
